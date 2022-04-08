@@ -1,3 +1,7 @@
+#ifndef MEERKAT_H
+#define MEERKAT_H
+
+
 #include <iostream>
 using namespace std;
 
@@ -7,13 +11,11 @@ class meerkat{
         int age;
 
     public:
-        void setName(string meerName){name = meerName;}
-        int setAge(int meerAge){age = meerAge;}
-        string getName(){return name;}
-        int getAge(){return age;}
+        void setName(string meerName);
+        int setAge(int meerAge);
+        string getName();
+        int getAge();
 };
 
-
-
-
+#endif // MEERKAT_H
 

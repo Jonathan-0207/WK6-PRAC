@@ -1,19 +1,7 @@
-#include <iostream>
-using namespace std;
+#include "meerkat.h"
 
-class meerkat{
-    private:
-        string name;
-        int age;
-
-    public:
-        void setName(string meerName){name = meerName;}
-        int setAge(int meerAge){age = meerAge;}
-        string getName(){return name;}
-        int getAge(){return age;}
-};
-
-
-
-
+void meerkat::setName(string meerName){name = meerName;}
+int meerkat::setAge(int meerAge){age = meerAge; return 0;}
+string meerkat::getName(){return name;}
+int meerkat::getAge(){return age;}
 
